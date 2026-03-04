@@ -1,0 +1,48 @@
+/* =====================================================
+   Midnight Brew Café Theme
+===================================================== */
+
+body {
+  background-color: #2e2e2e;
+  color: #f4f4f4;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive;
+  margin: 0;
+  padding: 40px 0;
+}
+
+/* Heading */
+h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #ffcc70;
+}
+
+p {
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+/* Menu List */
+#menu-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Menu Items */
+#menu-list li {
+  background: #444;
+  padding: 15px;
+  margin: 12px auto;
+  border-radius: 10px;
+  width: 60%;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+#menu-list li:hover {
+  background: #ffcc70;
+  color: #2e2e2e;
+  transform: scale(1.05);
+}
