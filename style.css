@@ -19,7 +19,7 @@ h1 {
 }
 
 p {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-style: italic;
 }
 
@@ -27,6 +27,7 @@ p {
 #menu-list {
   list-style: none;
   padding: 0;
+  margin-bottom: 30px;
 }
 
 /* Menu Items */
@@ -45,4 +46,29 @@ p {
   background: #ffcc70;
   color: #2e2e2e;
   transform: scale(1.05);
+}
+
+/* Daily Special Button */
+#show-special {
+  padding: 10px 20px;
+  background: #ffe600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+#show-special:hover {
+  background: #ffcc70;
+  transform: scale(1.05);
+}
+
+/* Daily Special Message */
+#daily-special {
+  margin-top: 15px;
+  font-style: italic;
+  font-size: 20px;
+  color: #ffe600;
 }
