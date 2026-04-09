@@ -23,7 +23,15 @@ const body = document.body;
 
 toggleBtn.addEventListener("click", () => {
   body.classList.toggle("night-mode");
-  toggleBtn.textContent = body.classList.contains("night-mode")
+
+  const isNight = body.classList.contains("night-mode");
+
+  toggleBtn.textContent = isNight
     ? "Switch to Day Mode"
     : "Switch to Night Mode";
+
+  cafeImage.src = isNight
+    ? "images/cafe-night.png"
+    : "images/cafe-day.png";
+});
 });
