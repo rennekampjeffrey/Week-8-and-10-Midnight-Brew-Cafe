@@ -31,7 +31,7 @@ toggleBtn.addEventListener("click", () => {
     : "Switch to Night Mode";
 
   cafeImage.src = isNight
-    ? "images/cafe-night.png"
+    ? "Charming café at night.png"
     : "images/cafe-day.png";
 });
 });
