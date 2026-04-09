@@ -1,21 +1,29 @@
-// Array of menu items
 const menuItems = ["Latte", "Espresso", "Green Tea", "Muffin", "Iced Coffee"];
-
-// Select the unordered list
 const menuList = document.getElementById("menu-list");
 
-// Loop through array and create list items
-menuItems.forEach(function(item) {
-    const li = document.createElement("li");
-    li.textContent = item;
-    menuList.appendChild(li);
+// Display menu items
+menuItems.forEach((item) => {
+  const li = document.createElement("li");
+  li.textContent = item;
+  menuList.appendChild(li);
 });
 
-// Daily Special Button Functionality
-const button = document.getElementById("show-special");
+// Daily special button
+const specialButton = document.getElementById("show-special");
 const display = document.getElementById("daily-special");
 
-button.addEventListener("click", () => {
-    const randomItem = menuItems[Math.floor(Math.random() * menuItems.length)];
-    display.textContent = `⭐ Today's Special: ${randomItem} ⭐`;
+specialButton.addEventListener("click", () => {
+  const randomItem = menuItems[Math.floor(Math.random() * menuItems.length)];
+  display.textContent = `Today's Special: ${randomItem}`;
+});
+
+// Day/Night Mode button
+const toggleBtn = document.getElementById("toggle-mode");
+const body = document.body;
+
+toggleBtn.addEventListener("click", () => {
+  body.classList.toggle("night-mode");
+  toggleBtn.textContent = body.classList.contains("night-mode")
+    ? "Switch to Day Mode"
+    : "Switch to Night Mode";
 });
