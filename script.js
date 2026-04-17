@@ -1,4 +1,4 @@
-// ALERT MESSAGE
+// ALERT
 alert("Welcome to Midnight Brew Café! Open late tonight — perfect for studying or relaxing.");
 
 // MENU ARRAY
@@ -30,13 +30,13 @@ toggleBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 
   if (document.body.classList.contains("dark-mode")) {
-    img.src = "./cafe-night.jpg";
+    img.src = "cafe-night.jpg";
   } else {
-    img.src = "./cafe-day.jpg";
+    img.src = "cafe-day.jpg";
   }
 });
 
-// FAQ TOGGLE (ONLY ONE OPEN AT A TIME)
+// FAQ
 const questions = document.querySelectorAll(".faq-question");
 
 questions.forEach((question) => {
