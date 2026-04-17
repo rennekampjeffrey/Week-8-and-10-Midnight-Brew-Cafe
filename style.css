@@ -35,7 +35,7 @@ img {
   width: 60%;
 }
 
-/* BUTTON */
+/* BUTTONS */
 #show-special, #toggle-mode {
   padding: 10px 20px;
   background: #ffe600;
@@ -45,7 +45,7 @@ img {
   margin: 10px;
 }
 
-/* DAILY SPECIAL TEXT */
+/* DAILY SPECIAL */
 #daily-special {
   margin-top: 15px;
   font-style: italic;
