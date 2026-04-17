@@ -2,20 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Café Menu</title>
+  <title>Cozy Corner Café</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<img id="cafe-image" src="images/cafe-day.jpg" alt="Cafe view" width="400">
+
+  <!-- Day/Night Button -->
   <button id="toggle-mode">Switch to Night Mode</button>
 
-  <h1>Welcome to Cozy Corner Café</h1>
+  <h1>☕ Cozy Corner Café</h1>
+  <p>Fresh drinks & baked goods made daily</p>
+
+  <!-- Cafe Image -->
+  <img id="cafe-image" src="images/cafe-day.jpg" alt="Cafe view">
+
+  <!-- Menu -->
   <ul id="menu-list"></ul>
 
+  <!-- Daily Special -->
   <button id="show-special">Show Daily Special</button>
   <p id="daily-special"></p>
 
+  <!-- FAQ Section -->
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <button class="faq-question">What are your hours?</button>
+    <div class="faq-answer">We’re open 7am – 7pm every day!</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Do you have dairy-free options?</button>
+    <div class="faq-answer">Yes! We offer almond, oat, and soy milk.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Can I order ahead?</button>
+    <div class="faq-answer">Yes, you can order online or call ahead.</div>
+  </div>
+
+  <div class="faq-item">
+    <button class="faq-question">Is there outdoor seating?</button>
+    <div class="faq-answer">Yes, we have a patio available year-round.</div>
+  </div>
+
   <script src="script.js"></script>
+
 </body>
 </html>
