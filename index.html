@@ -2,55 +2,60 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Midnight Brew Café</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<h1>Midnight Brew Café</h1>
-<p>A cozy late-night café for students, coffee lovers, and night owls.</p>
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#hours">Hours</a></li>
+    </ul>
+  </nav>
 
-<!-- IMAGE -->
-<img id="cafe-img" src="cafe-day.jpg" alt="Cafe Image">
+  <!-- HOME SECTION -->
+  <section id="home" class="section">
+    <h1>Welcome to Midnight Brew Café</h1>
+    <p>Craft coffee. Cozy nights. Perfect atmosphere.</p>
+  </section>
 
-<br><br>
+  <!-- MENU SECTION -->
+  <section id="menu" class="section">
+    <h2>Our Menu</h2>
+    <ul>
+      <li>Espresso</li>
+      <li>Cappuccino</li>
+      <li>Latte</li>
+      <li>Cold Brew</li>
+    </ul>
+  </section>
 
-<!-- TOGGLE BUTTON -->
-<button id="toggle-mode">Toggle Day/Night Mode</button>
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Midnight Brew Café is a modern coffee shop focused on quality, comfort, and community.</p>
+  </section>
 
-<!-- MENU -->
-<h2>Menu</h2>
-<ul id="menu-list"></ul>
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section">
+    <h2>Contact</h2>
+    <p>Email: contact@midnightbrew.com</p>
+    <p>Phone: (555) 123-4567</p>
+  </section>
 
-<!-- DAILY SPECIAL -->
-<button id="show-special">Show Daily Special</button>
-<p id="daily-special"></p>
-
-<!-- FAQ -->
-<h2>FAQ</h2>
-
-<div class="faq-item">
-  <button class="faq-question">What are your hours?</button>
-  <div class="faq-answer">We are open from 6pm to 2am every day.</div>
-</div>
-
-<div class="faq-item">
-  <button class="faq-question">Do you have dairy-free options?</button>
-  <div class="faq-answer">Yes! We offer almond, oat, and soy milk.</div>
-</div>
-
-<div class="faq-item">
-  <button class="faq-question">Is WiFi available?</button>
-  <div class="faq-answer">Yes, free high-speed WiFi is available.</div>
-</div>
-
-<div class="faq-item">
-  <button class="faq-question">Can I study here late?</button>
-  <div class="faq-answer">Absolutely! We are designed for late-night studying.</div>
-</div>
-
-<!-- SCRIPT MUST BE LAST -->
-<script src="script.js"></script>
+  <!-- HOURS SECTION -->
+  <section id="hours" class="section">
+    <h2>Hours</h2>
+    <p>Monday - Friday: 7am - 9pm</p>
+    <p>Saturday - Sunday: 8am - 10pm</p>
+  </section>
 
 </body>
 </html>
