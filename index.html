@@ -9,48 +9,67 @@
 
 <body>
 
-  <!-- NAVIGATION -->
-  <nav class="navbar">
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#menu">Menu</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-      <li><a href="#hours">Hours</a></li>
-    </ul>
-  </nav>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="logo">Midnight Brew</div>
 
-  <!-- HOME -->
-  <section id="home" class="section">
+  <div class="hamburger" id="hamburger">
+    ☰
+  </div>
+
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#menu">Menu</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#hours">Hours</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-content">
     <h1>Midnight Brew Café</h1>
-    <p>Craft coffee. Calm nights. Cozy atmosphere.</p>
-  </section>
+    <p>Craft coffee. Quiet nights. Perfect atmosphere.</p>
+    <a href="#menu" class="btn">Explore Menu</a>
+  </div>
+</section>
 
-  <!-- MENU -->
-  <section id="menu" class="section">
-    <h2>Menu</h2>
-    <p>Espresso • Latte • Cappuccino • Cold Brew • Mocha</p>
-  </section>
+<!-- MENU -->
+<section id="menu" class="section">
+  <h2>Our Menu</h2>
+  <div class="card-grid">
+    <div class="card">Espresso</div>
+    <div class="card">Latte</div>
+    <div class="card">Cappuccino</div>
+    <div class="card">Cold Brew</div>
+    <div class="card">Mocha</div>
+  </div>
+</section>
 
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <h2>About Us</h2>
-    <p>Midnight Brew Café is built on quality coffee and a relaxing night-time vibe.</p>
-  </section>
+<!-- ABOUT -->
+<section id="about" class="section dark">
+  <h2>About Us</h2>
+  <p>
+    Midnight Brew Café is a modern coffee experience focused on quality beans,
+    calm environments, and late-night comfort.
+  </p>
+</section>
 
-  <!-- CONTACT -->
-  <section id="contact" class="section">
-    <h2>Contact</h2>
-    <p>Email: contact@midnightbrew.com</p>
-    <p>Phone: (555) 123-4567</p>
-  </section>
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <h2>Contact</h2>
+  <p>Email: contact@midnightbrew.com</p>
+  <p>Phone: (555) 123-4567</p>
+</section>
 
-  <!-- HOURS -->
-  <section id="hours" class="section">
-    <h2>Hours</h2>
-    <p>Mon–Fri: 7am – 9pm</p>
-    <p>Sat–Sun: 8am – 10pm</p>
-  </section>
+<!-- HOURS -->
+<section id="hours" class="section dark">
+  <h2>Hours</h2>
+  <p>Monday–Friday: 7am – 9pm</p>
+  <p>Saturday–Sunday: 8am – 10pm</p>
+</section>
 
+<script src="script.js"></script>
 </body>
 </html>
